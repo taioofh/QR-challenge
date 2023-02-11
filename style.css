@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+
+}
+
+.mainCard .image{
+    align-items: top;
+    display: flex;
+  margin: 29px 50px;
+
+ 
+}
+.image img {
+    border-radius: 2%;
+    height: 500px;
+    width: 500px;
+} 
+
+.mainCard .info{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px ;
+    text-align: center;
+    word-break: break-all;
+    display: inline-block;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.mainCard .info h3{
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 112px;
+    font-weight:700;
+    padding: 12px 18px;
+}
+.mainCard .info p{
+
+    color:hsl(220, 15%, 55%);
+    font-size: 15px;
+    display: block ;
+    font-weight: 400;
+
+}
+
+ .content{
+display:inline-block ;
+align-items: center;
+ }
+.mainCard{
+    overflow: hidden;
+display: flex;
+text-align: end;
+height: 700px;
+width: 600px;
+background-color: rgb(255, 255, 255);
+border-radius: 2%;
+margin: 10% 30%;
+border: .5px solid  rgba(0, 0,0,15%);
+/* box-shadow: 0 0 0 .4em rgba(136, 136, 136,10%); */
+}
+
+@media(width:375px){
+    .mainCard{
+        height: 250px;
+        width: 150px;
+        padding: 5px 0px 0px 0px ;
+        margin: 16px 0px 33px 32px;
+
+    }
+    .mainCard .image{
+        align-items: top;
+        display: flex;
+      margin:25px 30px;
+    
+     
+    }
+
+    .image img {
+        border-radius: 2%;
+        height: 100px;
+        width: 100px;
+    } 
+    .mainCard .info h3{
+        font-size: 9px;
+        margin: 0px 5px;
+        padding: 5px 5px;
+    }
+    .mainCard .info p{
+    
+        font-size: 9px;
+        margin: 5px 5px;
+
+    }
+
+    
+}
